@@ -10,10 +10,15 @@ fs.readFile(filePath, 'utf-8', (err, data) => {
         return;
     }
 
-    // Afficher une lettre sur deux dans le terminal
-    console.log('Lettres sur deux du contenu du fichier:');
+    // Construire une chaîne de caractères avec une lettre sur deux
+    let everyOtherLetter = '';
     for (let i = 0; i < data.length; i += 2) {
-        console.log(data[i]);
+        everyOtherLetter += data[i];
     }
+
+    // Afficher la chaîne de caractères dans le terminal
+    console.log('Lettres sur deux du contenu du fichier:');
+    console.log(everyOtherLetter);
 });
+
 

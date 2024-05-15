@@ -1,0 +1,11 @@
+JOB 15 :
+
+Changer le nom de la catégorie “bébé” en “Vêtements pour enfant”.
+
+
+MONGODB :
+
+db.category.updateOne(
+    { "name": "bébé" }, // Filtre pour sélectionner la catégorie "bébé"
+    { $set: { "name": "Vêtements pour enfant" } } // Mettre à jour le nom de la catégorie
+)

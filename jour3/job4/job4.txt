@@ -1,0 +1,32 @@
+JOB 4 :
+
+Ajoutez les documents suivants à votre collection “product” :
+➔ name ⇒ “Pantalon noir”, description ⇒ “Un pantalon noir”, price ⇒ 14,99,
+quantity ⇒ 12
+➔ name ⇒ “chaussettes”, description ⇒ “chaussettes cool !”, price ⇒ 6,
+quantity ⇒ 6
+
+MONGODB :
+
+> db.product.insertMany([
+    {
+        "name": "Pantalon noir",
+        "description": "Un pantalon noir",
+        "price": 14.99,
+        "quantity": 12
+    },
+    {
+        "name": "chaussettes",
+        "description": "chaussettes cool !",
+        "price": 6,
+        "quantity": 6
+    }
+])
+
+< {
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('664479472aa19ca270faa604'),
+    '1': ObjectId('664479472aa19ca270faa605')
+  }
+}

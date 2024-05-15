@@ -1,0 +1,16 @@
+JOB 8 :
+
+Écrire une requête permettant d’afficher seulement deux catégories.
+
+MANGODB :
+
+< db.category.find().limit(2)
+
+{
+  _id: ObjectId('66447b232aa19ca270faa606'),
+  name: 'Vêtements'
+}
+{
+  _id: ObjectId('66447b232aa19ca270faa607'),
+  name: 'Accessoires'
+}

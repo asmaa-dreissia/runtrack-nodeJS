@@ -1,0 +1,15 @@
+JOB 14 :
+
+Récupérer une catégorie à l’aide de son id.
+
+MONGODB :
+
+db.category.find()
+{
+  _id: ObjectId('66447b7d2aa19ca270faa60b'),
+  name: 'Art'
+}
+{
+  _id: ObjectId('66447b232aa19ca270faa606'),
+  name: 'Vêtements'
+}

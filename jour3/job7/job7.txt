@@ -1,0 +1,24 @@
+JOB 7 :
+
+Récupérez l’ensemble des données de la collection “category”.
+
+MONGODB :
+
+> db.category.find()
+
+{
+  _id: ObjectId('66447b232aa19ca270faa606'),
+  name: 'Vêtements'
+}
+{
+  _id: ObjectId('66447b232aa19ca270faa607'),
+  name: 'Accessoires'
+}
+{
+  _id: ObjectId('66447b232aa19ca270faa608'),
+  name: 'Électronique'
+}
+{
+  _id: ObjectId('66447b7d2aa19ca270faa609'),
+  name: 'Cuisine'
+}

@@ -1,0 +1,22 @@
+JOB 5 :
+
+Créez une nouvelle collection nommée “category” et insérez différentes
+catégories en une seule ligne de commande (au minimum 3).
+
+
+MONGODB :
+
+>db.category.insertMany([
+    { "name": "Cuisine" },
+    { "name": "Sport" },
+    { "name": "Art" }
+])
+
+< {
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('66447b7d2aa19ca270faa609'),
+    '1': ObjectId('66447b7d2aa19ca270faa60a'),
+    '2': ObjectId('66447b7d2aa19ca270faa60b')
+  }
+}

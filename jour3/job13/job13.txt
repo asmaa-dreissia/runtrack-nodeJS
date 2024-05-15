@@ -1,0 +1,25 @@
+JOB 13 :
+
+Récupérer l’ensemble des produits sans leurs id.
+
+MONGODB :
+
+db.product.find({}, { _id: 0 })
+{
+  name: 'chaussure',
+  description: 'une paire de chaussures',
+  price: 35,
+  quantity: 120
+}
+{
+  name: 'chaussure',
+  description: 'une paire de chaussures',
+  price: 35,
+  quantity: 120
+}
+{
+  name: 'Pantalon noir',
+  description: 'Un pantalon noir',
+  price: 14.99,
+  quantity: 12
+}

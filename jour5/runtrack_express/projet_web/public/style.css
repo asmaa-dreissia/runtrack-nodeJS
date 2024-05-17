@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+        
+header {
+    background: black;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header h1 {
+    float: left;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+.hero {
+    background: #adaa94; /* Fallback */
+    background: linear-gradient(to bottom, #5d5555, #ffffff); 
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-block;
+    color: #333;
+    background: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.services, .fleet {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.service-item, .car-item {
+    margin-bottom: 20px;
+}
+
+.service-item h3, .car-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service-item p, .car-item p {
+    font-size: 16px;
+}
+
+.car-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    background: black;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+footer li {
+    display: inline;
+    padding: 0 10px;
+}
